@@ -1,6 +1,7 @@
 .contentSearch{
     display: flex;
     justify-content: center;
+    padding-bottom:1rem;
 }
 .search{
     border: 0;

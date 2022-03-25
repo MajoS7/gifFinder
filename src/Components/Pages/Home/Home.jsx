@@ -5,7 +5,7 @@ import './Home.css'
 export const Home = () => {
   return (
     <div>
-        <h1>Gif Finder</h1>
+        <h1 className='titule'>Gif Finder</h1>
         <Search/>
         <AllCards/>
     </div>
