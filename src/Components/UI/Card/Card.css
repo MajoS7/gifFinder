@@ -8,18 +8,15 @@
     border-radius: 10%;
     gap:0.9375em;
 }
-.contentImage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .cardImage{
     width: 9.375em;
     height: 9.375em;
+    object-fit: contain;
     border-radius: 10%;
 }
 
 .text_rosa{
     color: #404040;
-    font-size: 1.25em;
+    font-size: 1em;
+    text-align: center;
 }
