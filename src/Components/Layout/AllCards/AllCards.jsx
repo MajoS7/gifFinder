@@ -4,6 +4,10 @@ import './AllCards.css'
 
 export const AllCards = () => {
   return (
-    <div><Card/></div>
+    <div className='allCards'>
+      <Card/>
+      <Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/>
+    
+    </div>
   )
 }
