@@ -2,6 +2,8 @@ import React from 'react'
 import './Search.css'
 export const Search = () => {
   return (
-    <div>Search</div>
+    <div className='contentSearch'>
+      <input type="search" name="" id="" className='search' placeholder='Write word'/>
+    </div>
   )
 }

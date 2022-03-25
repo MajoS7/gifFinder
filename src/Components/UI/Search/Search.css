@@ -1,0 +1,12 @@
+.contentSearch{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    border: 0;
+    width: 31.25rem;
+    padding: 0.625rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+}
+
