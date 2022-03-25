@@ -1,9 +1,9 @@
 import React from 'react'
 import './Search.css'
-export const Search = () => {
+export const Search = ({cardsGifs}) => {
   return (
     <div className='contentSearch'>
-      <input type="search" name="" id="" className='search' placeholder='Write word'/>
+      <input type="search" className='search' placeholder='Write word' onChange={cardsGifs}/>
     </div>
   )
 }

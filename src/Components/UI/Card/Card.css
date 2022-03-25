@@ -8,8 +8,12 @@
     border-radius: 10%;
     gap:0.9375em;
 }
+.contentImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .cardImage{
-    object-fit: cover;
     width: 9.375em;
     height: 9.375em;
     border-radius: 10%;

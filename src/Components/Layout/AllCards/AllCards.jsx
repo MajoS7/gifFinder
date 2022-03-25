@@ -2,12 +2,14 @@ import React from 'react'
 import { Card } from '../../UI/Card/Card'
 import './AllCards.css'
 
-export const AllCards = () => {
+export const AllCards = ({dataCards}) => {
+
   return (
     <div className='allCards'>
-      <Card/>
-      <Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/><Card/>
-    
+      {dataCards.map(item=>(
+        <Card titleCard={item.title} imageCard={item.images.downsized_medium.url}/>
+      ))}
+      
     </div>
   )
 }
